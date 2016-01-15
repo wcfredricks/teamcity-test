@@ -1,0 +1,39 @@
+{
+  "name": "teamcity-test",
+  "version": "0.0.0",
+  "description": "Testing the TeamCity server on EC2",
+  "homepage": "http://pennswall.com/teamcity-test/index.html",
+  "author": {
+    "name": "wcfredricks",
+    "email": "wcfredricks@pennswall.com",
+    "url": "wcfredricks.com"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "TeamCity CI"
+  ],
+  "devDependencies": {
+    "eslint-config-xo-space": "^0.7.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "wcfredricks/teamcity-test",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  }
+}
