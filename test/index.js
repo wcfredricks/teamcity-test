@@ -1,7 +1,7 @@
 'use strict';
 
 var assert = require('assert');
-//var teamcityTest = require('../lib');
+// var teamcityTest = require('../lib');
 
 describe('teamcity-test', function () {
   it('should have unit test!', function () {
